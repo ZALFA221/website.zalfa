@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --rf-brand:#000000;
+  --rf-brand-rgb:248,54,145;
+  --rf-dark:#000000;
+  --rf-body:#FF0000;
+  --f-main:"Raleway",sans-serif;
+  --transition:all.6s cubic-bezier(.165,.84,44,1);
+  --shadow:0px,15px,30px,rgba(0,0,0,0.1);
+}
+body {
+  font-family: var(--f-main);
+  color: var(--rf-body);
+  line-height: 3;
+}
+h1,.h1 h2,.h2 h3,.h3 h4,.h4 h5,.h5 h6,.h6 {
+  font-weight: 700;
+  color: var(--rf-dark);
+  font-family: var(--f-main);
+}
+
+.text-brand {
+  color: var(--rf-brand);
+}
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.but {
+  background-color: var(--rf-brand);
+}
+#home{
+  background-image: url(I.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+#kalkulator{
+  
+}
+.btn-brand{
+  background-color: var(--rf-brand)
+}
